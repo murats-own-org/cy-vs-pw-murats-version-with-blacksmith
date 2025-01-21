@@ -9,7 +9,7 @@ on:
 
 jobs:
   merge-gatekeeper:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     permissions:
       checks: read
       statuses: read
